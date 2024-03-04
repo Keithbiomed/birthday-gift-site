@@ -1,0 +1,82 @@
+body{
+    margin: 30px;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /*background-color: #a2d2ff;*/
+    background: linear-gradient(rgb(53, 155, 214), pink);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dan{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(169, 140, 196);
+    border-radius: 50%;
+}
+h1, h2, h4{
+    text-shadow: 0 0 2px black;
+}
+#age{
+    background-color: rgb(169, 140, 196);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 5px 0 10px 0;
+} 
+#date{
+    background-color: rgb(169, 140, 196);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gifts{
+    margin-top:50px;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+#img-happy:hover{
+    cursor: pointer;
+    background-image: url("happy.webp");
+}
+#img-clap:hover{
+    background-image: url("clapping.webp");
+}
+#img-cheers:hover{
+    background-image: url("cheers.webp");
+}
+.hint{
+    margin-top: 0;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+#img-cheers{
+    height: 200px;
+}
+.footer {
+    width: 400px;
+    margin: 20px auto 20px;
+    font-style: italic;
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }
+a{
+    color: white;
+}

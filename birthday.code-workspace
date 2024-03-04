@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../space"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BD"
+	}
+}
